@@ -13,8 +13,8 @@ const Testimonial = () => {
         <section className="container testimonial my-5 py-5" id="reviewsContaints">
             <div className="cointainer">
                 <div className="section-header py-5">
-                    <h5 className="brand-color text-uppercase">Testimonial</h5>
-                    <h1>What Our Patients <br /> Says</h1>
+                    <h5 className="brand-color text-uppercase">Testimonios</h5>
+                    <h1>Qué dicen nuestros <br /> pacientes</h1>
                 </div>
                 <div className="card-deck ">
                     <div className="d-flex justify-content-center ">

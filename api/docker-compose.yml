@@ -1,0 +1,44 @@
+version: "3.1"
+
+networks:
+  isolation-network:
+    name: isolation-network
+    driver: bridge
+
+services:
+  api:
+    image: node:16.17.0
+    container_name: doc-back-dev
+    command: bash -c "npm install && npm start .env"
+    working_dir: /doc/back
+    volumes:
+      - .:/doc/back
+    ports:
+      - "9000:9000"
+
+    expose:
+      - '9000'
+
+    depends_on:
+      - mongo
+
+    networks:
+      - isolation-network
+
+  mongo:
+    image: mongo:3.6.6
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+    volumes:
+      - db:/data/db  
+
+    expose:
+      - '27017'
+
+    networks:
+      - isolation-network
+
+volumes:
+  db:

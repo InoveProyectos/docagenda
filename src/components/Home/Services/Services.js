@@ -7,19 +7,19 @@ import './Services.css';
 
 const serviceData = [
     {
-        name: 'Fluoride Treatment',
+        name: 'Tratamiento de Fluor',
         img: flouride,
-        desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat?'
+        desc:'Realizamos control, limpieza y tratamientos de fluor'
     },
     {
-        name: 'Cavity Filling',
+        name: 'Implantes',
         img: cavity,
-        desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat?'
+        desc:'Realizamos implantes de alta calidad'
     },
     {
-        name: 'Teeth Whitening',
+        name: 'Blanqueo dental',
         img: teath,
-        desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat?'
+        desc:'Realizamos blanqueamiento dental'
     }
 ]
 
@@ -27,8 +27,8 @@ const Services = () => {
     return (
         <section className="services-container mt-5" id="serviceContaint">
             <div className="text-center">
-                <h5 className="brand-color">OUR SERVICES</h5>
-                <h2>Services We Provide</h2>
+                <h5 className="brand-color">Nuestros servicios</h5>
+                <h2>Qué proveemos</h2>
             </div>
             <div className="d-flex justify-content-center mt-5">
                 <div className="w-75 row">

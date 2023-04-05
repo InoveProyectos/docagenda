@@ -33,8 +33,9 @@ const router = createBrowserRouter([
   { path: '/doctors', element: <DoctorList /> },
   { path: '/auth/review', element: <AddReview /> },
   {
-    path: '/appointment',
-    element: <PrivateRoute><AppointMent/></PrivateRoute>
+    path: '/appointment', 
+    element: <AppointMent/>
+    // element: <PrivateRoute><AppointMent/></PrivateRoute>
   },
 ])
 

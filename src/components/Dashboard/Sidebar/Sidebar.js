@@ -32,7 +32,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <Link to="/" className="text-nowrap text-white text-decoration-none"><FontAwesomeIcon icon={faHome} />
-                        <span>Home</span>
+                        <span>INICIO</span>
                     </Link>
                 </li>
 

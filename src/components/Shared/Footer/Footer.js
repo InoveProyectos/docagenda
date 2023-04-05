@@ -4,34 +4,21 @@ import './Footer.css';
 
 const Footer = () => {
     const noNamed = [
-        { name: "Emergency Dental Care", link: "/emergency" },
+        { name: "Tratamientos personales", link: "/#" },
         { name: "Check Up", link: "/checkup" },
         { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
         { name: "Tooth Extraction", link: "/tooth-extract" },
         { name: "Check Up", link: "/checkup" },
     ]
     const ourAddress = [
-        { name: "New York - 101010 Hudson", link: "//google.com/map" },
-        { name: "Yards", link: "//google.com/map" },
+        { name: "Balcarce 574 – Villa Mercedes – San Luis, Argentina.", link: "#" },
 
     ]
     const oralHealth = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" }
+        { name: "Otros servicios", link: "/#" },
     ]
     const services = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" }
+        { name: "Otros servicios", link: "/#" },
     ]
 
     return (
@@ -39,22 +26,22 @@ const Footer = () => {
             <div className="container pt-5">
                 <div className="row md-py-5 footer-content">
                     {/* <FooterDetail key={1} menuTitle={"."} menuItems={noNamed} /> */}
-                    <FooterDetail key={2} menuTitle="Services" menuItems={services} />
-                    <FooterDetail key={3} menuTitle="Oral Health" menuItems={oralHealth} />
-                    <FooterDetail key={4} menuTitle="Our Address" menuItems={ourAddress}>
+                    <FooterDetail key={2} menuTitle="Servicios" menuItems={services} />
+                    <FooterDetail key={3} menuTitle="Otros servicios" menuItems={oralHealth} />
+                    <FooterDetail key={4} menuTitle="Contacto" menuItems={ourAddress}>
                         <ul className="social-media list-inline">
                             <li className="list-inline-item"><a href="!#"></a></li>
                             <li className="list-inline-item"><a href="!#"></a></li>
                             <li className="list-inline-item"><a href="!#"></a></li>
                         </ul>
                         <div className="md-mt-5">
-                            <h6>Call now</h6>
-                            <button className="btn btn-brand">+2025550295</button>
+                            <h6>¡Contactanos!</h6>
+                            <button className="btn btn-brand">+549 011 2154-4777</button>
                         </div>
                     </FooterDetail>
                 </div>
                 <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>
+                    <p>Copyright {(new Date()).getFullYear()} Todos los derechos reservados</p>
                 </div>
             </div>
         </footer>

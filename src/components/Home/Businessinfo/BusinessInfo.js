@@ -4,20 +4,20 @@ import React from 'react';
 
 const infosData = [
     {
-        title: 'Opening Hours',
-        description: 'We are open 7 days',
+        title: 'Atención',
+        description: '7 días de la semana',
         icon: faClock,
         background: 'primary'
     },
     {
-        title: 'Visit Our Location',
-        description: 'Brooklyn, NY 10003 USA',
+        title: 'Visitanos',
+        description: 'Balcarce 574, San Luis',
         icon: faMapMarker,
         background: 'dark'
     },
     {
-        title: 'Call us now',
-        description: '+15697854124',
+        title: 'Llamanos',
+        description: '+549 11 2154-4777',
         icon: faPhone,
         background: 'primary'
     }

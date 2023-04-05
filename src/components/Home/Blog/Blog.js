@@ -7,25 +7,25 @@ import './Blog.css';
 
 const blogData = [
     {
-        title: 'Check at least a doctor in a year for your teeth',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
+        title: 'Realiza un control anual',
+        description: 'Es importante el cuidado dental, al menos realiza un control anual. En lo posible un control semestral.',
         author: 'Dr. Cudi',
         authorImg: ema,
-        date: '23 April 2019'
+        date: '23 April 2022'
     },
     {
-        title: 'Two time brush in a day can keep you healthy',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
+        title: 'Rutina de lavado de los dientes',
+        description: 'Al menos cepillarse los dientes dos o tres veces por días, durante dos minutos.',
         author: 'Dr. Sinthia',
         authorImg: watson,
-        date: '23 April 2019'
+        date: '23 April 2022'
     },
     {
-        title: 'The tooth cancer is taking a challenge',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, placeat totam laborum maiores, esse assumenda porro error natus sit ipsam.        ',
+        title: 'El hilo dental',
+        description: 'Utiliza el hilo dental para remover los restos de comida entre dientes, con cuidado de no lastimar la encía',
         author: 'Dr. Cudi',
         authorImg: john,
-        date: '23 April 2019'
+        date: '23 April 2022'
     },
 ]
 
@@ -36,8 +36,8 @@ const Blog = () => {
         <section className="blogs my-5" id="BlogContaint">
             <div className="container">
                 <div className="section-header text-center">
-                    <h5 className="brand-color text-uppercase">Our Blogs</h5>
-                    <h1>From Our Blog News</h1>
+                    <h5 className="brand-color text-uppercase">Nuestro blog</h5>
+                    <h1>Novedades</h1>
                 </div>
                 <div className="card-deck">
                     <div className="mt-5 d-flex justify-content-center">

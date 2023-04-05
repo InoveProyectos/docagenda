@@ -18,6 +18,7 @@ import axios from 'axios';
 
 const SignUp = ({ handleResponse }) => {
     const baseUrl = process.env.REACT_APP_BASE_URL;
+    console.log(baseUrl)
     const [error, setError] = useState({})
     const [loading, setLoading] = useState(false);
     const [user, setUser] = useState({})
@@ -80,6 +81,7 @@ const SignUp = ({ handleResponse }) => {
         }
         try{
             // Register With node-server & mongodb
+            console.log(baseUrl)
             const data = await axios.post(`${baseUrl}/auth/register`, registerInfo)
             setLoading(false);
             swal({

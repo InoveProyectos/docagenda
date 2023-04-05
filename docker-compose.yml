@@ -1,0 +1,20 @@
+version: "3.1"
+
+networks:
+  isolation-network:
+    name: isolation-network
+    driver: bridge
+
+services:
+  front-dev:
+    image: node:16.17.0
+    container_name: doc-front-dev
+    command: bash -c "npm install && npm start .env"
+    working_dir: /doc/front
+    volumes:
+      - .:/doc/front
+    ports:
+      - "3000:3000"
+
+    networks:
+      - isolation-network

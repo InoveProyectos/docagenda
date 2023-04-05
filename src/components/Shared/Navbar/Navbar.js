@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="container-fluid">
                 <div className="navbar-heading">
                     <h3>
-                        <Link className="navbar-h" to="/">Dental Doctor</Link>
+                        <Link className="navbar-h" to="/">Equipo Dental</Link>
                     </h3>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,11 @@ const Navbar = () => {
                             <a className="nav-link active me-3" aria-current="page" href="/">HOME</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link me-3" href="#doctorContaints">ABOUT</a>
+                            <a className="nav-link me-3" href="#doctorContaints">NOSOTROS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a href='#ContactPage' className="nav-link me-3">CONTACT</a>
+                            <a href='#ContactPage' className="nav-link me-3">CONTACTO</a>
                             {/* <NavLink activeClassName="ContactPage" className="nav-link me-3" to="#ContactPage">CONTACT</NavLink> */}
                         </li>
 
@@ -56,11 +56,11 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link me-3 textDark" href="#serviceContaint" >DENTAL SERVICE</a>
+                            <a className="nav-link me-3 textDark" href="#serviceContaint" >SERVICIOS</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link me-3 textDark" href="#reviewsContaints">REVIEWS</a>
+                            <a className="nav-link me-3 textDark" href="#reviewsContaints">OPINIONES</a>
                         </li>
 
                         <div className="dropdown">
@@ -70,7 +70,7 @@ const Navbar = () => {
                                     <Pop/>
                                     :
                                     <span>
-                                        <Link className={`nav-link me-3 text-white ${isSticky ? "textDark" : "textWhite"}`} to="/login">LOGIN</Link>
+                                        <Link className={`nav-link me-3 text-white ${isSticky ? "textDark" : "textWhite"}`} to="/login">INGRESAR</Link>
                                     </span>
                                 }
                             </li>

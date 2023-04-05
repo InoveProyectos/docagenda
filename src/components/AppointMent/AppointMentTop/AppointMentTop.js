@@ -9,7 +9,7 @@ const AppointMentTop = ({handleDateChange}) => {
     return (
         <section style={{height:'600px'}} className="ApopintMentTop row d-flex align-items-center">
             <div className="col-md-4 col-sm-12 col-12 ml-md-5 offset-md-1">
-            <h1 className="brand-color text-center p-5 mt-1">AppointMent</h1>
+            <h1 className="brand-color text-center p-5 mt-1">Agendar turno</h1>
                 <Calendar className="p-2 rounded shadow border-0 brand-bg"
                     onChange={handleDateChange}
                     value={new Date()}

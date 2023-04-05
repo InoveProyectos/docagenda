@@ -5,7 +5,7 @@ const AppointByDate = ({ appopintMent, selectedDate }) => {
     return (
         <div>
             <div className="d-flex justify-content-center p-2">
-                <p className="brand-color text-center">Appointment</p>
+                <p className="brand-color text-center">Agendar un turno</p>
                 <p>{selectedDate.toDateString()}</p>
             </div>
             {

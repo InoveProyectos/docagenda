@@ -9,7 +9,7 @@ const Doctor = () => {
     return (
         <section className="doctors" id="doctorContaints">
             <div className="container">
-                <h1 className="brand-color text-center mb-5">Our Doctors </h1>
+                <h1 className="brand-color text-center mb-5">Nuestros profesionales </h1>
             </div>
             <div className=" container">
                 <div className="row d-flex justify-content-center">

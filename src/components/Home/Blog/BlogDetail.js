@@ -15,7 +15,7 @@ const BlogDetail = (props) => {
                 <div className="card-body">
                     <h5>{title}</h5>
                     <p className="card-text text-secondary mt-4">{description}</p>
-                    <a href="!#">Read More</a>
+                    <a href="!#">Leer más</a>
                 </div>
             </div>
         </div>
